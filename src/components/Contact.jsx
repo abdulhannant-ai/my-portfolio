@@ -35,7 +35,7 @@ const Contact = () => {
 
           {/* ✅ GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/abdulhannant-ai"
             target="_blank"
             rel="noopener noreferrer"
             title="Check out my GitHub"
