@@ -12,7 +12,7 @@ export default function Home() {
         className="max-w-4xl mx-auto"
       >
         <img
-          src="/images/pf.jpg"
+          src="/images/me.jpg"
           alt="Abdul Hannan"
           className="w-24 h-24 rounded-full mx-auto mb-6 border-2 border-teal-700 object-cover"
         />
