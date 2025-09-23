@@ -15,8 +15,8 @@ const projects = [
     category: "Web Development",
     tags: ["React", "Next.js", "Charts" , "Tailwindcss"],
     images: ["/images/free.png", "/images/free2.png", "/images/free3.png", "/images/free4.png"],
-    github: "https://github.com/yourusername/university-cms",
-    demo: "https://university-cms-demo.com",
+    github: "https://github.com/abdulhannant-ai/FreelanceHUb.git",
+    demo: "https://freelance-hub-bay.vercel.app/",
   },
   {
     id: 2,
@@ -28,8 +28,8 @@ const projects = [
     category: "Web Development",
     tags: ["ReactJs", "Tailwindcss", "React Route","Context API"],
     images: ["/images/1.png", "/images/2.png", "/images/3.png"],
-    github: "https://github.com/yourusername/job-tracker",
-    demo: "https://job-tracker-demo.com",
+    github: "https://github.com/abdulhannant-ai/Job-Tracker.git",
+    demo: "https://job-tracker-nu-ten.vercel.app/",
   },
   {
     id: 3,
@@ -45,8 +45,8 @@ const projects = [
     category: "Web Development",
     tags: ["HTML", "CSS", "JavaScript"],
     images: ["/images/blog (1).png", "/images/blog (2).png", "/images/blog (3).png", "/images/blog (4).png"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
+    github: "https://github.com/abdulhannant-ai/Blogs_Site.git",
+    demo: "https://blogs-site-nu.vercel.app/",
   },
    {
     id: 4,
@@ -64,8 +64,8 @@ const projects = [
     category: "Web Development",
     tags: ["HTML", "CSS", "JavaScript"],
     images: ["/images/Taskflow (1).jpeg", "/images/Taskflow (2).jpeg", "/images/Taskflow (3).jpeg"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
+    github: "https://github.com/abdulhannant-ai/Taskflow.git",
+    demo: "https://taskflow-orpin-seven.vercel.app/",
   },
    {
     id: 5,
@@ -81,7 +81,7 @@ const projects = [
                   AI Chatbot: Provides quick data retrieval and AI-driven patient care insights.
                   This project demonstrates end-to-end hospital management with a focus on automation, validation, and AI assistance.`,
     category: ".NET",
-    tags: ["HTML", "CSS", "JavaScript", "C#", ":Net (Three-tier Architecture)", "ASP.NET", "MySQL"],
+    tags: ["HTML", "CSS", "JavaScript", "C#", ".Net (Three-tier Architecture)", "ASP.NET", "MySQL"],
     images: ["/images/hms 1.jpg", "/images/hms 2.jpg", "/images/hms 3.jpg", "/images/hms 4.jpg", "/images/hms 5.jpg", "/images/hms 6.jpg", "/images/hms 7.jpg", "/images/hms 8.jpg", "/images/hms 9.jpg", "/images/hms 10.jpg", "/images/hms 11.jpg", "/images/hms 12.jpg", "/images/hms 12.jpg", "/images/hms 13.jpg", "/images/hms 14.jpg"],
     github: "https://github.com/yourusername/portfolio",
     demo: "https://yourportfolio.com",
