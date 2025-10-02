@@ -83,8 +83,8 @@ const projects = [
     category: ".NET",
     tags: ["HTML", "CSS", "JavaScript", "C#", ".Net (Three-tier Architecture)", "ASP.NET", "MySQL"],
     images: ["/images/hms 1.jpg", "/images/hms 2.jpg", "/images/hms 3.jpg", "/images/hms 4.jpg", "/images/hms 5.jpg", "/images/hms 6.jpg", "/images/hms 7.jpg", "/images/hms 8.jpg", "/images/hms 9.jpg", "/images/hms 10.jpg", "/images/hms 11.jpg", "/images/hms 12.jpg", "/images/hms 12.jpg", "/images/hms 13.jpg", "/images/hms 14.jpg"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
+    github: "",
+    demo: "",
   },
 
 ];
@@ -224,26 +224,30 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center space-x-4">
-                <a
-                  href={selectedProject.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 bg-teal-700 text-white rounded-lg font-medium hover:bg-teal-600 transition duration-300"
-                  aria-label={`View ${selectedProject.title} on GitHub`}
-                >
-                  GitHub
-                </a>
-                <a
-                  href={selectedProject.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 bg-transparent border border-teal-700 text-teal-700 rounded-lg font-medium hover:bg-teal-50 transition duration-300"
-                  aria-label={`View live demo of ${selectedProject.title}`}
-                >
-                  Live Demo
-                </a>
-              </div>
+            <div className="flex justify-center space-x-4">
+                {selectedProject.github && (
+                  <a
+                    href={selectedProject.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-teal-700 text-white rounded-lg font-medium hover:bg-teal-600 transition duration-300"
+                    aria-label={`View ${selectedProject.title} on GitHub`}
+                  >
+                    GitHub
+                  </a>
+                )}
+                {selectedProject.demo && (
+                  <a
+                    href={selectedProject.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-transparent border border-teal-700 text-teal-700 rounded-lg font-medium hover:bg-teal-50 transition duration-300"
+                    aria-label={`View live demo of ${selectedProject.title}`}
+                  >
+                    Live Demo
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         )}
