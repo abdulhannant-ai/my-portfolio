@@ -87,6 +87,32 @@ const projects = [
     demo: "",
   },
 
+  {
+    id: 6,
+    title: "University Ranking Website",
+    description: `Project Description:
+                A clean, professional website that displays rankings and information for universities in Pakistan. The platform helps students compare institutions and make informed education decisions.
+                Features:
+                University rankings with sorting and filtering
+                Detailed university profiles with programs and contact info
+                Comparison tool to analyze multiple universities
+                Resources section with blog, career guidance, events, and news
+                Responsive design for all devices
+                Ad integration for monetization
+                Technical Details:
+                Built with HTML, CSS, and JavaScript
+                Serverless architecture
+                SEO-optimized structure
+                Professional design with consistent color scheme
+                Purpose:
+                Provides centralized information about Pakistani universities to help students in their education planning process.`,
+    category: "Web Development",
+   tags: ["HTML", "CSS", "JavaScript"],
+    images: ["/images/uni1.png", "/images/uni2.png", "/images/uni3.png", "/images/uni4.png", "/images/uni5.png", "/images/uni6.png", "/images/uni7.png", "/images/uni8.png", "/images/uni9.png", "/images/uni10.png", "/images/uni11.png", "/images/uni12.png"],
+    github: "https://github.com/abdulhannant-ai/Uni-Ranking.git",
+    demo: "https://uni-ranking-tau.vercel.app/",
+  },
+
 ];
 
 const categories = ["All", "Web Development", ".NET"];
