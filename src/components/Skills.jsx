@@ -5,9 +5,7 @@ import { Code, Layers, Server, Palette, Rocket, Code2Icon, Snowflake, CodeSquare
 const skills = [
   { name: "JavaScript", icon: <Code size={20} /> },
   { name: "React", icon: <Layers size={20} /> },
-  { name: "Node.js", icon: <Server size={20} /> },
   { name: "Tailwind CSS", icon: <Palette size={20} /> },
-  { name: "Next.js", icon: <Rocket size={20} /> },
   { name: ".Net", icon: <Code2Icon size={20} /> },
   { name: "Python", icon: <CodeSquare size={20} /> },
 ];
